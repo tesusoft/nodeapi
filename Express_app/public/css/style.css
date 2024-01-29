@@ -1,0 +1,360 @@
+ body{
+    
+    font: 15px 1.5, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+.container{ 
+    width: 80%;
+    overflow: hidden;
+    margin:auto;
+}
+.spacer{ 
+    width: 100%;
+    overflow: hidden;
+    margin:auto;
+    padding: auto;
+    height: 10%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+
+}
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#ffffff;
+}
+.aliceblue {
+    padding: 5px;
+    background: #35424a;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+.quote, .liner{
+    margin-left:20px;
+}
+.active-services {
+    /*background: #f3f9fd;*/
+    
+}
+.liner{    
+    border-bottom: #e8491d 3px solid;
+    }
+    .liner-4{    
+        border-bottom: #e8491d 3px solid;
+        width: 30%;
+        }
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;   
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+color: #e8491d;
+font-weight: bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+#showcase{
+    min-height: 400px;
+background:url('../images/header-bg.jpg') no-repeat 0 -200px; 
+text-align: center;
+color:#ffffff;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+    
+}
+#newsletter h1{
+    float:left;
+    margin-top:35px;
+        }
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding:4px;
+    height:40px;
+    margin-top:15px;
+    width:250px;
+} 
+/* Style for Boxes */
+#boxes{
+    margin-top:20px;
+    }
+
+#boxes .box{
+     float:left;
+     width:30%;
+     padding: 10px;
+     text-align:left;
+}
+/*quick contact */
+#quickcontact{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+    display:block;
+    
+}
+
+#quickcontact input{
+    padding:7px;
+    height:35px;
+    margin-top:15px;
+    width:45%;
+}
+
+#quickcontact form{
+    float:left;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#quickcontact{
+    float:left;
+    width: 100%;
+    padding: 10px;
+    text-align:left;   
+}
+#quickcontact form textarea{
+    width:45%;
+    padding:10px;
+    margin-top:15px;
+}
+
+#boxes .box img{
+      width:90px;      
+}
+aside#sidebar{
+    margin-top: 100px;
+    float:right;
+    border: 1.5px solid #e9ecef;
+    width:30%;
+    border-radius: 5px;
+    transition: all .3s;
+    box-shadow: 0 2px 3px 0 rgba(41,70,97,.1);
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+}
+article#main-col{
+    float: left;
+    width:65%;
+    margin-top: 40px;
+}
+ul#services li{
+    list-style: none;
+    padding:20px;
+    margin-bottom:5px;
+    background:#fff;
+    padding: 2.25rem;
+    border-radius: 5px;
+    transition: all .3s;
+    box-shadow: 0 2px 3px 0 rgba(41,70,97,.1);
+    background: #fff;
+    border: 1.5px solid #e9ecef;
+}
+
+#post-optin-imc{
+
+    border: 1px solid #dcdcd9;
+    -webkit-box-shadow: 0px 6px 11px -7px #000000;
+    -moz-box-shadow: 0px 6px 11px -7px #000000;
+    box-shadow: 0px 6px 11px -7px #000000;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+#post-optin-imc-header{
+    background-color: #79be37;
+}
+#post-optin-imc-title{
+    font-size: 26px;
+    color: #fff;
+    -webkit-text-shadow: #888 -0 0 1px;
+    -moz-text-shadow: #888 -0 0 1px;
+    text-shadow: #888 0 0 1px;
+    padding: 25px 40px;
+    color:#fff;
+    font-family:Helvetica;
+    text-align:center;
+    width:100%
+}
+#post-optin-imc-title span{
+    font-weight:bold;
+    width:50%;
+}
+.span-less{
+    font-size:20px;
+}
+.clearfix {
+    clear: both;
+}
+#post-optin-imc-content{
+
+    background-color: #fbfdf3;
+}
+#post-optin-imc-content-left{
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 50px 30px;
+    position: relative;
+}
+#post-optin-imc-tagline{
+    display: table-cell;
+    font-size: 16px;
+    line-height: 24px;
+    color: #858585;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 0;
+    vertical-align: middle;
+    }
+    #post-optin-imc-content-right input {
+        color:#858585;
+        font-family:Helvetica;
+    }
+    #post-optin-imc-content-right{
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%;
+        padding: 50px 30px 50px 0;
+        position: relative;
+    }
+    #post-optin-imc-name,
+    #post-optin-imc-email{
+        background-color: #fff;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #c7c9bd;
+        border-radius: 3px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 6px;
+        overflow: hidden;
+        outline: none;
+        margin: 0 0 10px;
+        vertical-align: middle;
+        display: inline;
+        color: #222;
+    }
+    
+    #post-optin-imc-submit{
+        font-size: 16px;
+        text-shadow: #888 0 0 1px;
+    padding: 6px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    margin-top: 10px;
+    color:#ffffff;
+    background-color:#79be37;
+    border-color:rgb(113,178,52);
+    font-family:Helvetica;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color: #e8491d;
+     text-align:center;
+}
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top:40px;
+    }
+    #newsletter button, .quote button{
+        display:block;
+        width:100%;
+    }
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+        width:100%;
+        margin-bottom:5px;
+
+    }
+}

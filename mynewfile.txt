@@ -1,0 +1,8 @@
+Hello content!Hello content!Hello content!
+Hello content!<br>Hello content!
+This is my text.Seems like I am enjoying my NodeJs class.
+I am so excited to be able to write in NodeJs.
+I am so excited to be able to write in NodeJs.
+Learnt about appendFile.
+Learnt about appendFile.
+Next is about fs.writeFile.

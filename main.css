@@ -1,0 +1,12 @@
+body{
+    margin: auto;
+}
+p{
+    font-size: 40px;
+    color: green;
+}
+li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:greenyellow
+}
